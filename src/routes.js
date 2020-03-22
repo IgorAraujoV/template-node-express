@@ -1,9 +1,9 @@
 const { Router } = require('express');
 
-const routes = new Router();
+const router = new Router();
 
-routes.get('/', (req, res) => {
+router.get('/', (req, res) => {
   res.json({ Message: 'ok diferent' });
 });
 
-module.exports = routes;
+module.exports = router;
